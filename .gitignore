@@ -1,55 +1,39 @@
-# Prerequisites
-*.d
-
-# Object files
+# Compiled executables
+*.exe
+*.out
 *.o
-*.ko
-*.obj
-*.elf
+*.so
+*.dylib
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Precompiled Headers
-*.gch
-*.pch
+# Temporary files
+*.tmp
+*.bak
+*.log
+debug.txt
 
-# Libraries
-*.lib
+# OS files
+Thumbs.db
+.DS_Store
+
+# Object and archive files
 *.a
 *.la
 *.lo
+*.axo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Compiled program
+encryption
+encryption.exe
+a.out
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Test files (optional - customize as needed)
+test_encrypted.*
+test_decrypted.*
